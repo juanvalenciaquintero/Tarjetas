@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial.scale=1">
+<link href="css/bootstrap.css" rel="stylesheet">
+<script src="js/jquery-1.11.2.min.js" class="__web-inspector-hide-shortcut__"></script>
+<script src="js/bootstrap.js"></script>
+<title>Documento sin título</title>
+<link rel="stylesheet" href="almacenamiento.css">
+<script src="almacenamiento.js"></script>
+<script src="jquery-2.1.4.js" ></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">        
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                	<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Tarjeta EMT</a>
+			</div>
+            <div class="collapse navbar-collapse" id="menu">
+            	<ul class="nav navbar-nav">
+                	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Opciones<span class="caret"> </span></a>
+                    	<ul class="dropdown-menu">
+      						<li><a href="datosIniciales.html">Inicializar valores</a></li>
+      						<li><a href="resetear.html">Resetear valores</a></li>
+                            
+    					</ul>
+                    
+                    </li>
+                    <li><a href="recarga.html">Recarga</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Historial<span class="caret"> </span></a>                                       
+                    	<ul class="dropdown-menu">
+      						<li><a href="historial.html">Historial de movimientos</a></li>
+      						<li><a href="historial_recargas.html">Historial de recargas</a></li>
+                            <li><a href="borrar_historial.html">Borrar historial de movimientos</a></li>
+                            <li><a href="borrar_recargas.html">Borrar historial de recargas</a></li>
+                            
+    					</ul>
+                     </li>
+                    
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Salir</a></li>
+                    
+                </ul>
+            </div>
+		</div>
+	</nav>
+<div id="contenedor">
+	<!--<div id="zonaEmt">EMT-->
+    
+    	<!--<input type="button" id="emt" value="EMT"> -->
+    
+    <!--</div>-->
+    <figure id="zonaEmt">
+    	<img src="logo-emt.png" alt="EMT" id="emt">
+    </figure>
+    <!--<div id="zonaMetro">METRO
+    
+    	 <input type="button" id="metro" value="METRO"> 
+    
+    </div>-->
+    <figure id="zonaMetro">
+    	<img src="logo-metro.png" alt="METRO" id="metro">
+    </figure>
+    <!--<div id="zonaConsorcio">CONSORCIO
+    
+    	 <input type="button" id="metro" value="METRO"> 
+    
+    </div>-->
+    <figure id="zonaConsorcio">
+    	<img src="logo-ctm.png" alt="CONSORCIO" id="cons">
+    </figure>
+    <div id="zonaSaldo">
+    
+    
+    </div>
+    <footer>
+    	(c) Valencia 2007
+    </footer>
+    
+    </div>
+
+</body>
+</html>

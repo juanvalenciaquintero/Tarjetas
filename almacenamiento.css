@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contenedor{
+	width:95%;
+	margin:auto;
+	padding-top:50px;
+	border:4px solid #555252;
+	border-radius: 20px;
+	
+	
+}
+
+
+#clave, #valor{
+	width:180px;
+}
+
+#zonadatos div{
+	padding:15px;
+	border-bottom:3px solid #00F;
+}
+
+#zonaEmt, #zonaMetro, #zonaConsorcio{
+	
+	width:200px;
+	height:100px;
+	
+	background-color:#CDF0F4;
+	
+	color:#FFFFFF;
+	margin:auto;
+	margin-bottom:20px;
+	text-align:center;
+	
+	font-weight:bold;
+	font-size:1.3em;
+	border:2px solid #070707;
+	border-radius:5px;
+	box-shadow:5px 5px 10px #7C7979;
+	
+}
+
+
+
+#zonaSaldo {
+	width:200px;
+	margin:auto;
+	background-color:#F4CEE8;
+	border:2px solid #272525;
+	border-radius:5px;
+	box-shadow:5px 5px 10px;
+	text-align:center;
+	font-weight:bold;
+	
+		
+}
+
+footer {
+	
+	margin-top:30px;
+	text-align:center;	
+	
+}
+
+#datosIniciales{
+	border:1px solid #000000;
+	border-radius:5px;
+	box-shadow:5px 5px 10px #565454;
+	background-color:#5CDDED;
+	text-align:center;
+	width: 50%;
+	margin:auto;
+	margin-bottom:30px;	
+	font-weight:bold;
+	
+}
+
+.saldos {
+	/*border:1px solid #000000;
+	border-radius:5px;*/
+	
+	
+	width: 60%;
+	text-align:right;
+	font-weight:bold;
+	margin: auto;
+	
+}
+
+#tablaSaldos {
+	border:1px solid #000000;
+	border-radius:5px;
+	box-shadow:5px 5px 10px #565454;
+	
+	width: 90%;
+	text-align:center;
+	font-weight:bold;
+	margin: auto;
+	margin-bottom:30px;
+	
+}
+
+.numero {
+	width:50%;
+	text-align:left;
+	marging-top:5px;
+	
+}
+
+#saldoI{
+	margin-top:10px;	
+}
+
+
+
+#aceptar{
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-right:5px;
+}
+#borrar{
+	margin-top:20px;
+	margin-bottom:10px;
+	margin-left:5px;
+}
+
+#recarga{
+	margin-top:10px;	
+}	
+
+#tablahistorico{
+	text-align:center;
+	margin:auto;
+}
+
+#tabla{
+	width:90%;
+	
+	margin:auto;
+	background-color:#FFFFFF;
+	padding-bottom:30px;
+	margin-top:30px;
+	border:3px solid #000000;
+	border-radius:10px;
+	box-shadow:5px 5px 10px;
+	margin-bottom:30px;
+	
+}
+
+#lineas {
+	padding-top:10px;	
+	
+}
