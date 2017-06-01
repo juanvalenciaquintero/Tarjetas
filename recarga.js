@@ -47,11 +47,11 @@ function recargar(){
 		
 		grabar_historico(importerecarga);
 		
-		location.href ="index.html";
+		location.replace("index.html");
 		
 	}	
 	
-	location.href ="index.html";
+	location.replace("index.html");
 	
 }
 

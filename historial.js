@@ -38,7 +38,8 @@ function empezar() {
 
 function volver(){
 	
-	location.href = "index.html";
+	
+	location.replace("index.html");
 	
 	
 }

@@ -97,7 +97,7 @@ function grabar(){
 		localStorage.setItem("PrecioMetro",precmetr.value);
 		localStorage.setItem("PrecioCons",preccon.value);	
 		
-		location.href ="index.html";
+		location.replace("index.html");
 						
 	}
 	

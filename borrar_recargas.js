@@ -60,12 +60,15 @@ function borrar(){
 		localStorage.Recarga=1;
 		
 	}
-	location.href = "index.html";
+	
+	
+	location.replace("index.html");
 }
 
 function volver(){
 	
-	location.href = "index.html";
+	
+	location.replace("index.html");
 	
 	
 }

@@ -59,12 +59,15 @@ function borrar(){
 		localStorage.Movimiento=1;
 		
 	}
-	location.href = "index.html";
+	
+	
+	location.replace("index.html");
 }
 
 function volver(){
 	
-	location.href = "index.html";
+	
+	location.replace("index.html");
 	
 	
 }
