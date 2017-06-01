@@ -44,10 +44,25 @@ function comenzar() {
 	
 	cons.addEventListener("click", pagarConsorcio, false);
 	
-		
+		var apagado = document.getElementById("apagado");
+	
+	apagado.addEventListener("click", apagar, false);
 	
 }
 
+
+function apagar(){
+	
+	var mensaje = confirm("¿Seguro que quiere abandonar la aplicación?");
+	//Detectamos si el usuario acepto el mensaje
+	if (mensaje) {
+		
+		window.close();	
+			
+		}
+	
+	
+}
 function pagarEmt(){
 	
 	var precio = localStorage.getItem("PrecioEmt"); 
