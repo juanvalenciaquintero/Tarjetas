@@ -14,12 +14,16 @@ function empezar() {
 	
 	var movimientos = +localStorage.getItem("Movimiento");
 	
+	var mov;
+	var fecha;
+	var texto;
+	
 	for (i=(movimientos-1); i>=1; i--){
 		
-		var mov = "Movimiento" + i;
+		 mov = "Movimiento" + i;
 		
-		var fecha = localStorage.getItem(mov);
-		var texto = linea.innerHTML + "<div><strong>" + i + ":</strong> " + fecha + "</div>";
+		fecha = localStorage.getItem(mov);
+		texto = linea.innerHTML + "<div id='lineas'><strong>" + i + ":</strong> " + fecha + "</div>";
 		
 		
 		linea.innerHTML=texto;
