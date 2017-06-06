@@ -10,62 +10,7 @@
 <link rel="stylesheet" href="almacenamiento.css">
 <script src="almacenamiento.js"></script>
 <script src="jquery-2.1.4.js" ></script>
-<script type="text/javascript">
-<!--
 
-var timer = null;
-var floatHeight  = 80 + 3; //added margin
-var floatWidth   = 50 + 3; //added margin
-
-var obj = null;
-var IE=0, NS=0;
-
-	// Initializing function, must be called on onLoad event in BODY tag
-
-function init()
-{
-    	 // get the object as per the browser
-    obj = document.layers ? document.layers["float"] :		 
-    document.getElementById ?  document.getElementById("float").style :
-    document.all["float"].style;
-								
-         // Detect the browser
-    IE  = (-1 != navigator.appVersion.indexOf("MSIE")) ? 1 : 0;
-    NS  = ("Netscape" == navigator.appName) ? 1 : 0;
-
-    positionFloat(1); 	 // position initially
-    
-         // repositioning the layer	
-    if(IE)
-    { 
-         self.onscroll = function(){ positionFloat(1); }
-         self.onresize = function(){ positionFloat(1); }   //when window is resized
-    }
-    else if(NS)
-    { timer = setInterval("positionFloat(4)",10);}
-}
- 
-	// Function which actually positions the layer 	
-
-function positionFloat(iPos)
-{
-   if(IE)          // IE specific code
-   {
-		obj.left = document.body.scrollLeft;
-		obj.top =  document.body.scrollTop+200;
-
-   }
-   else if(NS)     // Netscape specific code
-   {
-		obj.left = self.pageXOffset;
-		obj.top =  self.pageYOffset+200;
-   }
-}
-// -->
-</script>
-<script type="text/javascript">
-init();
-</script>
 </head>
 
 <body>
@@ -136,9 +81,7 @@ init();
     
     
     </div>
-    <div style="position:absolute; height:70px; width:40px; top:1; visibility:visible; z-index:999;" ID="float">
-   <img src="apagado-36x36.png" id="apagado" border="0" height="40" width="40">		
-</div>
+    
     <footer>
     	(c) Valencia 2007
     </footer>

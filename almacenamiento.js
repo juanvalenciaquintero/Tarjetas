@@ -57,7 +57,7 @@ function apagar(){
 	//Detectamos si el usuario acepto el mensaje
 	if (mensaje) {
 		
-		window.close();	
+	System.exit(0);
 			
 		}
 	
